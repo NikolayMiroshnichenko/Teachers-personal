@@ -1,0 +1,58 @@
+#maps {
+    display: block;
+    width: 60%;
+    height: 480px;
+}
+.contactns {
+    display: flex;
+    justify-content: center;
+}
+.contacts-item {
+    width: 40%;
+    background-color: #333;
+    height: 480px;
+    padding: 20px;
+}
+.contacts-item p {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+.contacts-txt {
+    display: block;
+    width: 60px;
+    text-align: right;
+    font-size: 12px;
+    margin-right: 12px;
+}
+.contacts-item-info {
+    margin-top: 40px;
+}
+.contacts-item__mail,
+.contacts-item__number,
+.contacts-item__addres {
+    position: relative;
+    padding-left: 60px;
+}
+.contacts-item__mail::before,
+.contacts-item__number::before,
+.contacts-item__addres::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/contacts/marker.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.contacts-item__number::before {
+    background-image: url(../img/contacts/call.png);
+}
+.contacts-item__mail::before {
+    background-image: url(../img/contacts/mail.png);
+}

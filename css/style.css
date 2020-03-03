@@ -1,0 +1,26 @@
+@import './header.css';
+@import './main.css';
+@import './slider.css';
+@import './footer.css';
+@import './contacts.css';
+@import './computer-science.css';
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/body.png);
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+
+
